@@ -7,4 +7,20 @@
 .maincontainer {
   display: grid;
   grid-template-areas: "a b b c" "a d d c";
+}
+
+.item-1 {
+  grid-area: a;
+}
+
+.item-2 {
+  grid-area: b;
+}
+
+.item-3 {
+  grid-area: c;
+}
+
+.item-4 {
+  grid-area: d;
 }/*# sourceMappingURL=main.css.map */
