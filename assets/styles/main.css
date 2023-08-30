@@ -6,7 +6,11 @@
 
 .maincontainer {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "a b b c" "a d d c";
+  height: 800px;
+  margin: 20px auto;
+  padding: 10px auto;
 }
 
 .item-1 {

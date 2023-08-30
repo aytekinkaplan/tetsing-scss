@@ -3,12 +3,23 @@
     margin: 0;
     padding: 0;
 }
+$color1: darken(rgb(207, 76, 207), 30%);
+$color2: darken(rgb(10, 206, 33), 30%);
+$color3: darken(rgb(36, 116, 246), 30%);
+$color4: darken(rgb(238, 168, 130), 30%);
+
+
 
 .maincontainer{
     display: grid;
+    grid-template-columns: repeat(4,1fr);
     grid-template-areas:
     "a b b c"
     "a d d c";
+
+    height: 800px;
+    margin: 20px auto;
+    padding: 10px auto;
 }
 
 .item-1{
