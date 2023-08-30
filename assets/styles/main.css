@@ -6,4 +6,5 @@
 
 .maincontainer {
   display: grid;
+  grid-template-areas: "a b b c" "a d d c";
 }/*# sourceMappingURL=main.css.map */
