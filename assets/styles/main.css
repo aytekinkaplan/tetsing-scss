@@ -15,16 +15,20 @@
 
 .item-1 {
   grid-area: a;
+  background-color: #671b67;
 }
 
 .item-2 {
   grid-area: b;
+  background-color: #033c0a;
 }
 
 .item-3 {
   grid-area: c;
+  background-color: #05327c;
 }
 
 .item-4 {
   grid-area: d;
+  background-color: #bd531a;
 }/*# sourceMappingURL=main.css.map */

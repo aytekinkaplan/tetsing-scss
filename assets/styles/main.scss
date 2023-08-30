@@ -24,13 +24,17 @@ $color4: darken(rgb(238, 168, 130), 30%);
 
 .item-1{
     grid-area: a;
+    background-color: $color1;
 }
 .item-2{
     grid-area: b;
+    background-color: $color2;
 }
 .item-3{
     grid-area: c;
+    background-color: $color3;
 }
 .item-4{
     grid-area: d;
+    background-color: $color4;
 }
